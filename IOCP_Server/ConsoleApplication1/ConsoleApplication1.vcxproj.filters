@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ErrManager">
+      <UniqueIdentifier>{4dfbabc4-daea-4e19-b8e9-adff6fdb27e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerManager">
+      <UniqueIdentifier>{f9c0274a-c609-4a8f-b16d-3b4783d24f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock">
+      <UniqueIdentifier>{309836ee-9a48-4732-be84-c9ac6e1ea82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{a2792bb6-22b9-4050-a65d-59d13678520e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrManager.cpp">
+      <Filter>ErrManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManager.cpp">
+      <Filter>ServerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrManager.h">
+      <Filter>ErrManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packet.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManager.h">
+      <Filter>ServerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerDefine.h">
+      <Filter>ServerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
